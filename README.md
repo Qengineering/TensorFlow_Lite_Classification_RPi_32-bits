@@ -27,9 +27,11 @@ tabby.jpeg <br/>
 schoolbus.jpg <br/>
 grace_hopper.bmp <br/>
 Labels.txt <br/>
-TestTensorFlow_Lite.cpb <br/>
-MobileNetV1.cpp<br/>
+TensorFlow_Lite_Mobile.cpb <br/>
+TensorFlow_Lite_Class.cpp<br/>
  <br/>
+Next, choose your model from TensorFlow: https://www.tensorflow.org/lite/guide/hosted_models <br/> 
+Download a quantized model, extract the .tflite from the tarball and place it in your *MyDir* <br/>
 Run TestTensorFlow_Lite.cpb with Code::Blocks. Remember, you also need a working OpenCV 4 on your Raspberry. <br/>
 Preferably use our installation: https://qengineering.eu/install-opencv-4.3-on-raspberry-pi-4.html <br/>
 
