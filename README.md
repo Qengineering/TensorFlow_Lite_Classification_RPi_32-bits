@@ -10,7 +10,7 @@ Size: 224x224 <br/>
 Frame rate Mobile_V1 Lite : 33 FPS (RPi 4 @ 2000 MHz - 32 bits OS) <br/>
 Frame rate Inception_V2 Lite : 8.9 FPS (RPi 4 @ 2000 MHz - 32 bits OS) <br/>
 Frame rate Inception_V4Lite : 1.6 FPS (RPi 4 @ 2000 MHz - 32 bits OS) <br/>
-With a 64 bits OS you get higher framerates see https://github.com/Qengineering/TensorFlow_Lite_RPi_64-bits <br/>
+With a 64 bits OS you get higher frame rates see: https://github.com/Qengineering/TensorFlow_Lite_RPi_64-bits <br/>
 <br/>
 Special made for a bare Raspberry Pi see: https://qengineering.eu/install-tensorflow-2-lite-on-raspberry-pi-4.html <br/>
 <br/>
