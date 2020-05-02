@@ -32,10 +32,12 @@ TensorFlow_Lite_Class.cpp<br/>
  <br/>
 Next, choose your model from TensorFlow: https://www.tensorflow.org/lite/guide/hosted_models <br/> 
 Download a quantized model, extract the .tflite from the tarball and place it in your *MyDir* <br/> <br/>
-Your *MyDir* folder may contain now mobilenet_v1_1.0_224_quant.tflite <br/>
-Or *MyDir* folder may contain inception_v4_299_quant.tflite <br/>
+Your *MyDir* folder may contain now: mobilenet_v1_1.0_224_quant.tflite <br/>
+Or *MyDir* folder may contain: inception_v4_299_quant.tflite <br/>
 Or both of course. <br/> <br/>
+Enter the .tflite file of your choice on line 54 in TensorFlow_Lite_Class.cpp <br/>
+The image to be tested is given a line 84, also in TensorFlow_Lite_Class.cpp <br/> <br/>
 Run TestTensorFlow_Lite.cpb with Code::Blocks. Remember, you also need a working OpenCV 4 on your Raspberry. <br/>
 Preferably use our installation: https://qengineering.eu/install-opencv-4.3-on-raspberry-pi-4.html <br/>
 
-![output image]( https://qengineering.eu/images/James_17.jpg )
+![output image]( https://qengineering.eu/images/Schoolbus.jpg )
