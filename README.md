@@ -2,14 +2,15 @@
 TensorFlow Lite classification running at 33 FPS on bare Raspberry Pi 4
 
 A fast C++ implementation of TensorFlow Lite classification on a bare Raspberry Pi 4.
-Once overclocked to 2000 MHz, your app runs an amazing 33 FPS without any hardware accelerator.
+Once overclocked to 1950 MHz, your app runs an amazing 33 FPS without any hardware accelerator.
 
 https://arxiv.org/pdf/1712.05877.pdf <br/>
 Training set: COCO with 1000 objects<br/>
 Size: 224x224 <br/>
-Frame rate Mobile_V1 Lite : 33 FPS (RPi 4 @ 2000 MHz - 32 bits OS) <br/>
-Frame rate Inception_V2 Lite : 8.9 FPS (RPi 4 @ 2000 MHz - 32 bits OS) <br/>
-Frame rate Inception_V4Lite : 1.6 FPS (RPi 4 @ 2000 MHz - 32 bits OS) <br/>
+Frame rate Mobile_V1 Lite : 33 FPS (RPi 4 @ 1950 MHz - 32 bits OS) <br/>
+Frame rate Mobile_V2 Lite : 36.2 FPS (RPi 4 @ 1950 MHz - 32 bits OS) <br/>
+Frame rate Inception_V2 Lite : 8.9 FPS (RPi 4 @ 1950 MHz - 32 bits OS) <br/>
+Frame rate Inception_V4Lite : 1.6 FPS (RPi 4 @ 1950 MHz - 32 bits OS) <br/>
 With a 64 bits OS you get higher frame rates see: https://github.com/Qengineering/TensorFlow_Lite_RPi_64-bits <br/>
 <br/>
 Special made for a bare Raspberry Pi see: https://qengineering.eu/install-tensorflow-2-lite-on-raspberry-pi-4.html <br/>
