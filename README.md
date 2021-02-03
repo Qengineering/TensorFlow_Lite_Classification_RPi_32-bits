@@ -1,4 +1,4 @@
-# TensorFlow_Lite_RPi_32-bits
+# TensorFlow_Lite_Classification_RPi_32-bits
 TensorFlow Lite classification running at 33 FPS on bare Raspberry Pi 4
 
 A fast C++ implementation of TensorFlow Lite classification on a bare Raspberry Pi 4.
@@ -11,14 +11,14 @@ Frame rate Mobile_V1 Lite : 33 FPS (RPi 4 @ 1950 MHz - 32 bits OS) <br/>
 Frame rate Mobile_V2 Lite : 36.2 FPS (RPi 4 @ 1950 MHz - 32 bits OS) <br/>
 Frame rate Inception_V2 Lite : 8.9 FPS (RPi 4 @ 1950 MHz - 32 bits OS) <br/>
 Frame rate Inception_V4Lite : 1.6 FPS (RPi 4 @ 1950 MHz - 32 bits OS) <br/>
-With a 64 bits OS you get higher frame rates see: https://github.com/Qengineering/TensorFlow_Lite_RPi_64-bits <br/>
+With a 64 bits OS you get higher frame rates see: https://github.com/Qengineering/TensorFlow_Lite_Classification_RPi_64-bits <br/>
 <br/>
 Special made for a bare Raspberry Pi see: https://qengineering.eu/install-tensorflow-2-lite-on-raspberry-pi-4.html <br/>
 <br/>
 To extract and run the network in Code::Blocks <br/>
 $ mkdir *MyDir* <br/>
 $ cd *MyDir* <br/>
-$ wget https://github.com/Qengineering/TensorFlow_Lite_RPi_32-bits/archive/master.zip <br/>
+$ wget https://github.com/Qengineering/TensorFlow_Lite_Classification_RPi_32-bits/archive/master.zip <br/>
 $ unzip -j master.zip <br/>
 Remove master.zip and README.md as they are no longer needed. <br/> 
 $ rm master.zip <br/>
