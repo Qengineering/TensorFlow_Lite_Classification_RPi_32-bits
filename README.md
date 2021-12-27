@@ -2,9 +2,9 @@
 ![output image]( https://qengineering.eu/images/Schoolbus2.png )
 ## TensorFlow Lite classification running on a bare Raspberry Pi 32-bit OS
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)<br/><br/>
-A fast C++ implementation of TensorFlow Lite classification on a Jetson Nano.<br/>
+A fast C++ implementation of TensorFlow Lite classification  on a bare Raspberry Pi 4.<br/>
 Once overclocked to 1950 MHz, your app runs an amazing 33 FPS without any hardware accelerator.
-Special made for a Jetson Nano see [Q-engineering deep learning examples](https://qengineering.eu/deep-learning-examples-on-raspberry-32-64-os.html) <br/>
+Special made for a bare Raspberry Pi 4 see [Q-engineering deep learning examples](https://qengineering.eu/deep-learning-examples-on-raspberry-32-64-os.html) <br/>
 
 ------------
 
@@ -58,7 +58,7 @@ The image to be tested is given a line 84, also in TensorFlow_Lite_Class.cpp <br
 ------------
 
 ## Running the app.
-Run TestTensorFlow_Lite.cpb with Code::Blocks.  More info or<br/> 
+Run TestTensorFlow_Lite.cpb with Code::Blocks. More info or<br/> 
 if you want to connect a camera to the app, follow the instructions at [Hands-On](https://qengineering.eu/deep-learning-examples-on-raspberry-32-64-os.html#HandsOn).<br/><br/>
 
 ------------
